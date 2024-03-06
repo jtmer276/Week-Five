@@ -21,9 +21,9 @@ Project: Election
         totalVotes = martinezVote + awbreyVote;
         awbreyPercentage = (awbreyVote/totalVotes)*100;
         martinezPercentage = (martinezVote/totalVotes)*100;
-        System.out.println("Candidate\t\t Votes\t Percentage");
-        System.out.println("Awbrey\t\t\t "+ awbreyVote + awbreyPercentage);
-
+        /*System.out.println("Candidate\t\t Votes\t Percentage");
+        System.out.println("Awbrey\t\t\t "+ awbreyVote); */
+        System.out.println(awbreyPercentage)
 
      }
  }
