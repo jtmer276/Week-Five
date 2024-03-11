@@ -5,7 +5,6 @@ Project: Election
  *********/
 
 import java.util.*;
-import java.text.NumberFormat;
 
  public class election{
      public static void main(String[] args){
@@ -20,13 +19,13 @@ import java.text.NumberFormat;
         System.out.print("Enter the number of Martinez's votes: ");
         martinezVote = input.nextInt();
         totalVotes = (martinezVote + awbreyVote);
-        awbreyPercentage = (awbreyVote/totalVotes)*100;
+        awbreyPercentage = awbreyVote/totalVotes;
         martinezPercentage = (martinezVote/totalVotes)*100;
         /*System.out.println("Candidate\t\t Votes\t Percentage");
         System.out.println("Awbrey\t\t\t "+ awbreyVote); */
         System.out.println(totalVotes);
         System.out.println(awbreyVote);
-        System.out.println(percent.format(awbreyPercentage));
+        System.out.println(awbreyPercentage);
 
      }
  }
