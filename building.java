@@ -25,6 +25,8 @@ import java.text.NumberFormat;
         final_price = (float)final_price;
 
         System.out.println("The final price is: " + currency.format(final_price));
+
+        input.close();
      }
 
     }

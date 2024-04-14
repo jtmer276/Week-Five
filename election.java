@@ -37,5 +37,8 @@ import java.text.NumberFormat;
         System.out.println("Awbrey\t \t \t" + (awbreyVote)+"\t\t"+percent.format(awbreyPercentage));
         System.out.println("Martinez\t \t" + (martinezVote)+"\t\t"+percent.format(martinezPercentage));
         System.out.println("\nTOTAL VOTES: " + (totalVotes));
-     }
+        System.out.println(" ");
+
+        input.close();
+         }
  }

@@ -33,6 +33,8 @@ public class geometry {
         double cost = (2.412*(side_one))+(3.767*(side_two))+(15.758*(hypotenuse));
         System.out.println("The price is: " + currency.format(cost));       
 
+        input.close();
+
     }
     
 }
