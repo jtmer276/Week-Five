@@ -1,4 +1,5 @@
-/*****
+
+
 import java.util.*;
 
 public class time_conversion {
@@ -17,9 +18,8 @@ public class time_conversion {
         System.out.print("What is your birth day? ");
         birth_day = input.nextInt();
         System.out.print("What year is it");
-        today_year = input
+        today_year = input.nextInt();
         
 
     }
 }
-**/
