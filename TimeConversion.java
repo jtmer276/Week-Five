@@ -15,11 +15,15 @@ public class TimeConversion{
         System.out.print("Enter the time in minutes: ");
         mins_initial = input.nextInt();
 
-        minutes = mins_initial%60;
+        minutes = (mins_initial%60);
         hours = (mins_initial-minutes)/60;
 
-        System.out.println("The time is: " + hours +":"+ minutes);
-
+        if(minutes < 10){
+            System.out.println("The time is: " + hours +":0"+ minutes);
+        }
+        else{
+            System.out.println("The time is: " + hours +":"+ minutes);
+        }
 
         input.close();
 
